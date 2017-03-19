@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">移动校园</string>
+    <string name="item_home">首页</string>
+    <string name="item_explore">预约</string>
+    <string name="item_mine">我</string>
+    <string name="admin_user">管理登录</string>
+    <string name="student_login">学生登录</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="uid">学号</string>
+    <string name="college">学院</string>
+    <string name="classes">班级</string>
+    <string name="username">用户名</string>
+    <string name="tel_hint">学号/职工号</string>
+    <string name="password">密码：</string>
+    <string name="password_hint">密码</string>
+    <string name="no_username">注册帐号</string>
+    <string name="more">更多</string>
+    <string name="private_cloud">配置服务器</string>
+    <string name="switch_user">管理员登录</string>
+    <string name="servie_add">配置服务器地址</string>
+    <string name="address">http://%s:8080/RTSServer</string>
+    <string name="ipordomain">服务器IP地址</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_ok">确定</string>
+    <string name="tel">学号：</string>
+    <string name="name">姓名：</string>
+    <string name="man">男</string>
+    <string name="femal">女</string>
+    <string name="sex">性别：</string>
+    <string name="checkcode">验证码：</string>
+    <string name="action_about">关于</string>
+    <string name="current_version">当前版本</string>
+    <string name="hope">更多功能敬请期待</string>
+    <string name="hope_tip">有什么不爽当面说，看我不打你</string>
+    <string name="about_copyright"><![CDATA[Copyright © 2016–2017]]></string>
+    <string name="advice_feedback">意见反馈</string>
+    <string name="advice_feedback_content">向作者发送电子邮件</string>
+    <string name="open_in_app_store">去商店评分</string>
+    <string name="open_in_app_store_content">还没上架我会告诉你？</string>
+    <string name="about_author">关于作者</string>
+    <string name="msg_author">颜值很高，还TM好学</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_exit">退出</string>
+    <string name="agree_exit">确定要退出吗?</string>
+    <string name="agree">确定</string>
+    <string name="disagree">取消</string>
+    <string name="search">搜索</string>
+    <string name="scan_qr">条码</string>
+    <string name="express_load">快递查询</string>
+    <string name="spinner_tip">选择快递公司</string>
+    <string name="loading">加载中...</string>
+    <string name="scan">扫一扫</string>
+    <string name="exit">退出</string>
+    <string name="stud">学号：</string>
+    <string name="xuey">学院：</string>
+    <string name="zhiw">职位：</string>
+    <string name="agree_exit_login">确定要退出登录么？</string>
+    <string name="gender">性别：</string>
+    <string name="commit">提交</string>
+    <string name="notice">意见反馈</string>
+    <string name="notice_tip">请填写需要发布的公告内容</string>
+    <string name="admin">管理员</string>
+
+    <array name="post">
+        <item>普通学生</item>
+        <item>学生班委</item>
+        <item>教导员</item>
+    </array>
+</resources>

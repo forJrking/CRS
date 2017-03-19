@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_bottom_home"
+        android:icon="@mipmap/ic_home"
+        android:orderInCategory="0"
+        android:title="@string/item_home"/>
+
+    <item
+        android:id="@+id/item_bottom_explore"
+        android:icon="@mipmap/ic_ord"
+        android:orderInCategory="1"
+        android:title="@string/item_explore"/>
+
+    <item
+        android:id="@+id/item_bottom_mine"
+        android:icon="@mipmap/ic_mine"
+        android:orderInCategory="2"
+        android:title="@string/item_mine"/>
+</menu>

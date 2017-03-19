@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/about_btn_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/current_version"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/about_tv_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"
+            tools:text="0.0-alpha-build"/>
+
+    </LinearLayout>
+
+    <View style="@style/AppWidget.DeepLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_author"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="@string/msg_author"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <View style="@style/AppWidget.DeepLine"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hope"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="@string/hope_tip"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+
+    <View style="@style/AppWidget.ShadowGap"/>
+
+    <View style="@style/AppWidget.DeepLine"/>
+
+    <LinearLayout
+        android:id="@+id/about_btn_open_in_app_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_in_app_store"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="@string/open_in_app_store_content"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <View style="@style/AppWidget.DeepLine"/>
+
+    <LinearLayout
+        android:id="@+id/about_btn_advice_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/advice_feedback"
+            android:textColor="?android:attr/textColorPrimary"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="@string/advice_feedback_content"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <View style="@style/AppWidget.ShadowGap"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/about_copyright"
+        android:textColor="?android:attr/textColorSecondary"
+        android:textSize="12sp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/r_bg"
+            android:drawableRight="@drawable/hot"
+            android:drawablePadding="5dp"
+            android:drawableTint="#FF0000"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="热点资讯"
+            android:textColor="#FF4081"
+            android:textSize="13sp"/>
+
+        <TextView
+            android:id="@+id/ad_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:padding="3dp"
+            android:singleLine="true"
+            android:text="我校召开青年教师干部座谈会..."
+            android:textColor="#212121"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+</LinearLayout>

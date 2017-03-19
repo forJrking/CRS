@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#2caf7f</color>
+    <color name="half_black">#70000000</color>
+    <color name="colorWhite">#fff</color>
+    <color name="black">#000</color>
+    <color name="bottom_bar">#001511</color>
+    <color name="sp_background">#23ACC1</color>
+    <color name="white">#fff</color>
+    <!-- 白色 加20%透明度 -->
+    <color name="alpha_white1">#33ffffff</color>
+    <!-- 透明度10% -->
+    <color name="a_10_white">#19FFFFFF</color>
+    <!--  透明度50%白色 -->
+    <color name="a_50_white">#80FFFFFF</color>
+    <color name="dialog_bg">#222222</color>
+    <!-- 透明度40%heise -->
+    <color name="a_40_black">#70000000</color>
+    <!-- -透明度30%黑色 -->
+    <color name="a_30_black">#4c000000</color>
+
+
+    <!-- wifi dialog color -->
+    <color name="wd_gray">#393939</color>
+    <color name="wd_dark_gray">#4e4e4e</color>
+    <color name="main_yellow">#f4a100</color>
+    <color name="new_bg_color">#f1f1f1</color>
+    <color name="title_color">#212121</color>
+    <color name="text_color">#797979</color>
+    <color name="ps_color">#b6b6b6</color>
+    <color name="divider_color">#cccccc</color>
+    <color name="remind_yellow">#ff9900</color>
+    <color name="dialog_color">#aaaaaa</color>
+    <color name="warn_red">#f45c51</color>
+    <color name="my_green">#2caf7f</color>
+    <color name="edit_blue">#03a9f4</color>
+    <color name="half_edit_blue">#8003a9f4</color>
+    <color name="half_white">#80ffffff</color>
+    <color name="half_main_yellow">#80f4a100</color>
+    <color name="half_warn_red">#80f45c51</color>
+    <color name="start_yellow">#ffba34</color>
+    <color name="start_font_color">#ffc35b</color>
+    <color name="nine_gray">#999999</color>
+    <color name="my_purple">#bb9cff</color>
+    <color name="ddd_gray">#dddddd</color>
+    <color name="new_green">#35d6c4</color>
+    <color name="home_chart_yellow">#ff6d24</color>
+    <color name="home_chart_red">#ff7070</color>
+    <color name="home_chart_blue">#70b5ff</color>
+    <color name="transparent">#00000000</color>
+    <color name="red_light">#ffff4444</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="blue_light">#ff33b5e5</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="titlecolor">#303030</color>
+</resources>
