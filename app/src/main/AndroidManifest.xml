@@ -71,6 +71,10 @@
             android:name=".ui.FeedListActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/NoTitileTheme"/>
+        <activity
+            android:name=".ui.OrderResultAct"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/NoTitileTheme"/>
 
     </application>
 

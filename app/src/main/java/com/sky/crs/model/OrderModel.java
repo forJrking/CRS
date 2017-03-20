@@ -43,6 +43,13 @@ public class OrderModel {
                 .execute(callBack);
     }
 
+    public void loadorderRes(AbsCallback callBack, String studentid) {
+        OkGo.post(URL.BASE + URL.ORDERRES)
+                .params("studentid", studentid)
+                .tag(cxt)
+                .execute(callBack);
+    }
+
     public void cancle() {
         OkGo.getInstance().cancelTag(cxt);
     }

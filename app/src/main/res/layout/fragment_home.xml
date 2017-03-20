@@ -150,7 +150,7 @@
                     android:drawablePadding="10dp"
                     android:drawableTop="@mipmap/jsyy"
                     android:gravity="center"
-                    android:text="课室预约"
+                    android:text="预约结果"
                     android:textSize="13sp"/>
 
                 <TextView

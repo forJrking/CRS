@@ -9,6 +9,7 @@ package com.sky.crs.net;
 public class URL {
 
 
+
     public static String BASE = "http://192.168.0.113:8080/RTSServer";
 
     public static final String LOGIN_URL = "/login";
@@ -27,4 +28,6 @@ public class URL {
     public static final String CLASSROOM = "/classroom";
 
     public static final String ORDERCLASSROOM = "/order";
+
+    public static final String ORDERRES = "/orderresult";
 }

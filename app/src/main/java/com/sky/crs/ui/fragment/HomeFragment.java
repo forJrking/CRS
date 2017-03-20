@@ -33,6 +33,7 @@ import com.sky.crs.net.JsonCallback;
 import com.sky.crs.ui.ExpressActivity;
 import com.sky.crs.ui.FeedbackActivity;
 import com.sky.crs.ui.MainActivity;
+import com.sky.crs.ui.OrderResultAct;
 import com.sky.crs.util.UIUtil;
 
 import java.text.SimpleDateFormat;
@@ -174,7 +175,7 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
                 break;
             case R.id.c_order:
 //                预约
-                ((MainActivity) getActivity()).switchCurrent(1);
+                startActivity(new Intent(getActivity(), OrderResultAct.class));
                 break;
             case R.id.express:
 //

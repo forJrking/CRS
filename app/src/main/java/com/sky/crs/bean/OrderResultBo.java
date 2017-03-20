@@ -14,21 +14,13 @@ import com.sky.crs.R;
 
 import static com.sky.crs.R.mipmap.common;
 
-public class ClassRoomBo {
+public class OrderResultBo {
     public String name;
     public String number;
     public int seat;
-    public int steated;
     public int type;
+    public String studentid;
     public int dealtype;
-
-    public boolean isHot() {
-        return steated > seat / 2;
-    }
-
-    public String getSeat() {
-        return steated + "/" + seat;
-    }
 
     public int getTypeIc() {
         int res = common;
