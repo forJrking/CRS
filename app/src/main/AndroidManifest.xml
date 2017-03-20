@@ -67,6 +67,10 @@
             android:name=".ui.AdminActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/NoTitileTheme"/>
+        <activity
+            android:name=".ui.FeedListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/NoTitileTheme"/>
 
     </application>
 

@@ -13,6 +13,9 @@ package com.sky.crs.ui.fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.view.ViewPager;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -58,6 +61,10 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
 
     @Override
     protected void init() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        ((MainActivity) getActivity()).setSupportActionBar(toolbar);
+        ((MainActivity) getActivity()).getSupportActionBar().setDisplayShowTitleEnabled(false);
+        setHasOptionsMenu(true);
         banner = (ConvenientBanner) findViewById(R.id.banner);
         findViewById(R.id.exam_num).setOnClickListener(this);
         findViewById(R.id.c_order).setOnClickListener(this);
@@ -119,6 +126,12 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
         return format.format(date);
     }
 
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        inflater.inflate(R.menu.menu_home, menu);
+        super.onCreateOptionsMenu(menu, inflater);
+    }
+
 
     private ImageView[] mPoints;
     private int currentIndex = 0;
@@ -157,7 +170,7 @@ public class HomeFragment extends BaseFragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.exam_num:
-                FeedbackActivity.launch(getActivity(),false);
+                FeedbackActivity.launch(getActivity(), false);
                 break;
             case R.id.c_order:
 //                预约

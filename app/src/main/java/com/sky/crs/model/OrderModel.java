@@ -16,24 +16,29 @@ import com.lzy.okgo.OkGo;
 import com.lzy.okgo.callback.AbsCallback;
 import com.sky.crs.net.URL;
 
-public class NoticeModel {
+public class OrderModel {
 
     private Context cxt;
 
-    public NoticeModel(Context cxt) {
+    public OrderModel(Context cxt) {
         this.cxt = cxt;
     }
 
-    public void loadNotice(AbsCallback callBack) {
-        OkGo.get(URL.BASE + URL.NOTICE)
-                .params("type", 0)
+
+    public void loadClassRooms(AbsCallback callBack) {
+        OkGo.get(URL.BASE + URL.CLASSROOM)
                 .tag(cxt)
                 .execute(callBack);
     }
 
-    public void loadFeedback(AbsCallback callBack) {
-        OkGo.get(URL.BASE + URL.NOTICE)
-                .params("type", 1)
+
+    public void orderClassRooms(AbsCallback callBack, String classname, String classnum, String studentid, int classseat, int type) {
+        OkGo.post(URL.BASE + URL.ORDERCLASSROOM)
+                .params("classname", classname)
+                .params("classnum", classnum)
+                .params("studentid", studentid)
+                .params("classseat", classseat)
+                .params("type", type)
                 .tag(cxt)
                 .execute(callBack);
     }

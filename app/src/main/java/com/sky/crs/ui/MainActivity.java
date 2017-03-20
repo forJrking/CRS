@@ -10,12 +10,8 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
-import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.TextView;
 
 import com.sky.crs.AppBase;
 import com.sky.crs.R;
@@ -30,20 +26,11 @@ public class MainActivity extends AppCompatActivity {
     NoScrollViewPager homeViewPager;
     MenuItem prevMenuItem;
     BottomNavigationView bottomNavView;
-    private TextView mTitle;
-
-    private int[] titles = {R.string.item_home, R.string.item_explore, R.string.item_mine};
-    private Toolbar mToolbar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        mTitle = (TextView) findViewById(R.id.tv_title);
-        setSupportActionBar(mToolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-
         homeViewPager = (NoScrollViewPager) findViewById(R.id.home_view_pager);
         bottomNavView = (BottomNavigationView) findViewById(R.id.bottom_nav_view);
         initViewPager();
@@ -103,11 +90,6 @@ public class MainActivity extends AppCompatActivity {
             public void onPageSelected(int position) {
                 invalidateOptionsMenu();
 
-                if (position == 2) {
-                    mToolbar.setVisibility(View.GONE);
-                } else {
-                    mToolbar.setVisibility(View.VISIBLE);
-                }
                 /**
                  * 该方法只有在有新的页面被选中时才会回调
                  * 如果 preMenuItem 为 null，说明该方法还没有被回调过
@@ -129,7 +111,6 @@ public class MainActivity extends AppCompatActivity {
 
                 bottomNavView.getMenu().getItem(position).setChecked(true);
                 prevMenuItem = bottomNavView.getMenu().getItem(position);
-                mTitle.setText(titles[position]);
             }
 
             @Override
@@ -151,11 +132,11 @@ public class MainActivity extends AppCompatActivity {
                 });
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_home, menu);
-        return true;
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getMenuInflater().inflate(R.menu.menu_home, menu);
+//        return true;
+//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:background="@drawable/r_bg"
-            android:drawableRight="@drawable/hot"
+            android:drawableLeft="@drawable/hot"
             android:drawablePadding="5dp"
             android:drawableTint="#FF0000"
             android:gravity="center"

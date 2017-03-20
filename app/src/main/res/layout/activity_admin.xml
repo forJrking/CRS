@@ -122,7 +122,7 @@
                     android:drawablePadding="10dp"
                     android:drawableTop="@mipmap/jz"
                     android:gravity="center"
-                    android:text="校园讲座"
+                    android:text="发布讲座"
                     android:textSize="13sp"/>
 
                 <TextView
@@ -132,7 +132,7 @@
                     android:drawablePadding="10dp"
                     android:drawableTop="@mipmap/swzl"
                     android:gravity="center"
-                    android:text="失物招领"
+                    android:text="发布失物"
                     android:textSize="13sp"/>
 
             </LinearLayout>

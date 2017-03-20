@@ -59,7 +59,7 @@ public class FeedbackActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private void initView() {
-        mToolbar = (Toolbar) findViewById(R.id.register_toolbar);
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(mToolbar);
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

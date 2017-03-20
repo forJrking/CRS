@@ -52,10 +52,10 @@ public class AdminActivity extends AppCompatActivity implements View.OnClickList
 
                 break;
             case R.id.publish_not:
-                FeedbackActivity.launch(this,true);
+                FeedbackActivity.launch(this, true);
                 break;
             case R.id.feed_look:
-
+                FeedListActivity.launch(this);
                 break;
             case R.id.admin_cls:
 

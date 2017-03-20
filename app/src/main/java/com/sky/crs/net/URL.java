@@ -23,4 +23,8 @@ public class URL {
     public static final String NOTICE = "/notice";
 
     public static final String FEEDBACK_URL = "/feedback";
+
+    public static final String CLASSROOM = "/classroom";
+
+    public static final String ORDERCLASSROOM = "/order";
 }

@@ -66,6 +66,9 @@
     <string name="notice">意见反馈</string>
     <string name="notice_tip">请填写需要发布的公告内容</string>
     <string name="admin">管理员</string>
+    <string name="yijianbo">意见薄</string>
+    <string name="creater">创建者：%s1</string>
+    <string name="to_or">明日预约</string>
 
     <array name="post">
         <item>普通学生</item>

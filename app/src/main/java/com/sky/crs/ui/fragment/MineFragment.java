@@ -51,6 +51,8 @@ public class MineFragment extends BaseFragment implements View.OnClickListener {
 
     @Override
     protected void init() {
+
+
         initView();
         initdata();
     }
