@@ -118,6 +118,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             if (LoginUserManger.getInstance().getisAdmin()) {
             } else {
                 Student student = LoginUserManger.getInstance().getStudent();
+                if (student == null) return;
                 mGenderRg.check(student.isMan() ? R.id.man : R.id.femal);
                 mNameEt.setText(student.getName());
                 mId.setText(student.getStudentid());

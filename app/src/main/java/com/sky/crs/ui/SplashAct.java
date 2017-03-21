@@ -135,7 +135,7 @@ public class SplashAct extends AppCompatActivity implements OnClickListener, OnP
     @Override
     public void onClick(View arg0) {
 
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
         finish();
     }

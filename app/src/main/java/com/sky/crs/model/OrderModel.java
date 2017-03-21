@@ -46,9 +46,27 @@ public class OrderModel {
     public void loadorderRes(AbsCallback callBack, String studentid) {
         OkGo.post(URL.BASE + URL.ORDERRES)
                 .params("studentid", studentid)
+                .params("admin", -1)
                 .tag(cxt)
                 .execute(callBack);
     }
+
+    public void loadDealorder(AbsCallback callBack) {
+        OkGo.post(URL.BASE + URL.ORDERRES)
+                .params("admin", 1)
+                .tag(cxt)
+                .execute(callBack);
+    }
+
+    public void dealorder(AbsCallback callBack, String classnum, String studentid, int dealtype) {
+        OkGo.post(URL.BASE + URL.DEALORDER)
+                .params("classnum", classnum)
+                .params("studentid", studentid)
+                .params("dealtype", dealtype)
+                .tag(cxt)
+                .execute(callBack);
+    }
+
 
     public void cancle() {
         OkGo.getInstance().cancelTag(cxt);

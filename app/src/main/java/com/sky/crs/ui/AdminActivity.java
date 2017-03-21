@@ -1,5 +1,6 @@
 package com.sky.crs.ui;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -49,7 +50,7 @@ public class AdminActivity extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.del_order:
-
+                startActivity(new Intent(this, DealWithOrderAct.class));
                 break;
             case R.id.publish_not:
                 FeedbackActivity.launch(this, true);

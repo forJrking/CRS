@@ -75,6 +75,10 @@
             android:name=".ui.OrderResultAct"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:theme="@style/NoTitileTheme"/>
+        <activity
+            android:name=".ui.DealWithOrderAct"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/NoTitileTheme"/>
 
     </application>
 

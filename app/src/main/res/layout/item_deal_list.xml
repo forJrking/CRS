@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/transparent"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/my_green"
+            android:text="通过审核"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/register_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/red_light"
+            android:text="未通过审核"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/wait"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/register_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="等待审核"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

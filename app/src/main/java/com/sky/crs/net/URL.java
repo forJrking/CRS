@@ -30,4 +30,6 @@ public class URL {
     public static final String ORDERCLASSROOM = "/order";
 
     public static final String ORDERRES = "/orderresult";
+
+    public static final String DEALORDER = "//dealorder";
 }

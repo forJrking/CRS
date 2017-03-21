@@ -69,6 +69,7 @@
     <string name="yijianbo">意见薄</string>
     <string name="creater">创建者：%s1</string>
     <string name="to_or">明日预约</string>
+    <string name="deal_or">预约者编号：%s</string>
 
     <array name="post">
         <item>普通学生</item>
